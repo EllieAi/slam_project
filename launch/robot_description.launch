@@ -12,16 +12,16 @@
 <!-- Send robot states to tf -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen"/>
 
-<node pkg="tf" type="static_transform_publisher" name="base_to_camera_tf" 
-    args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /camera 100" />
+<!--node pkg="tf" type="static_transform_publisher" name="base_to_camera_tf" 
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /camera 100" /-->
 
-<node pkg="tf" type="static_transform_publisher" name="footprint_to_chassis_tf" 
+<!--node pkg="tf" type="static_transform_publisher" name="footprint_to_chassis_tf" 
     args="0.0 0.0 0.0 0.0 0.0 0.0 /robot_footprint /chassis 100" />
 
-<node pkg="tf" type="static_transform_publisher" name="base_to_hokuyo_tf" 
+<!--node pkg="tf" type="static_transform_publisher" name="base_to_hokuyo_tf" 
     args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /hokuyo 100" />
 
-<node pkg="tf" type="static_transform_publisher" name="camera_rgb_frame_tf" 
+<!--node pkg="tf" type="static_transform_publisher" name="camera_rgb_frame_tf" 
     args="0.0 0.0 0.0 0.0 0.0 0.0 /camera /camera_rgb_frame 100" />
 
 </launch>
