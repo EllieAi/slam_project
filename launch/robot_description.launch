@@ -16,12 +16,12 @@
     args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /camera 100" /-->
 
 <!--node pkg="tf" type="static_transform_publisher" name="footprint_to_chassis_tf" 
-    args="0.0 0.0 0.0 0.0 0.0 0.0 /robot_footprint /chassis 100" />
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /robot_footprint /chassis 100" /-->
 
 <!--node pkg="tf" type="static_transform_publisher" name="base_to_hokuyo_tf" 
-    args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /hokuyo 100" />
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /chassis /hokuyo 100" /-->
 
 <!--node pkg="tf" type="static_transform_publisher" name="camera_rgb_frame_tf" 
-    args="0.0 0.0 0.0 0.0 0.0 0.0 /camera /camera_rgb_frame 100" />
+    args="0.0 0.0 0.0 0.0 0.0 0.0 /camera /camera_rgb_frame 100" /-->
 
 </launch>
