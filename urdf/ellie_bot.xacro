@@ -209,13 +209,13 @@
 </joint>
 
 
-  <joint name="camera_rgb_joint" type="fixed">
+  <joint name="camera_rgbd_joint" type="fixed">
     <origin xyz="0 -0.012 0" rpy="0 0 0" />
     <parent link="camera" />
-    <child link="camera_rgb_frame" />
+    <child link="camera_rgbd_frame" />
   </joint>
 
-  <link name="camera_rgb_frame">
+  <link name="camera_rgbd_frame">
     <inertial>
       <mass value="0.001" />
       <origin xyz="0 0 0" />
